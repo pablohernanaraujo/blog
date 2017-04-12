@@ -1,0 +1,56 @@
+{
+  "noticias": [
+    {
+      "titulo": "Nulla porttitor accumsan tincidunt.",
+      "texto": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "imagen": "https://s-media-cache-ak0.pinimg.com/736x/b2/58/bc/b258bc38fc44b82d636fd8ac0a96f27f.jpg",
+      "dia": 5,
+      "mes": "ENERO",
+      "categoria": "noticia"
+    },
+    {
+      "texto": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
+      "dia": 12,
+      "mes": "FEBRERO",
+      "categoria": "frase"
+    },
+    {
+      "titulo": "Proin eget tortor risus.",
+      "texto": "Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.",
+      "imagen": "http://www.fnstatic.co.uk/images/source/recipe/fast-food-meal.jpg",
+      "dia": 18,
+      "mes": "MARZO",
+      "categoria": "noticia"
+    },
+    {
+      "titulo": "Quisque velit nisi, pretium ut lacinia in, elementum id enim.",
+      "texto": "Curabitur aliquet quam id dui posuere blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
+      "imagen": "http://s.eatthis-cdn.com/media/images/ext/938753014/burger-fries-fast-food-under-350-calories.jpg",
+      "dia": 21,
+      "mes": "ABRIL",
+      "categoria": "noticia"
+    },
+    {
+      "titulo": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae",
+      "texto": "Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
+      "imagen": "http://www.arizonafoothillsmagazine.com/valleygirlblog/wp-content/uploads/pizza1.jpg",
+      "dia": 25,
+      "mes": "MAYO",
+      "categoria": "noticia"
+    },
+    {
+      "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.",
+      "dia": 30,
+      "mes": "JUNIO",
+      "categoria": "frase"
+    },
+    {
+      "titulo": "Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
+      "texto": "Curabitur aliquet quam id dui posuere blandit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.",
+      "imagen": "https://s-media-cache-ak0.pinimg.com/736x/19/03/cf/1903cf82c5a15973089aa65422c2d930.jpg",
+      "dia": 12,
+      "mes": "MAYO",
+      "categoria": "noticia"
+    }
+  ]
+}

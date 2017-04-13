@@ -71,13 +71,43 @@ body
 
 .listados-contenedor
   width: 100%
-  height: 1000px
-  background-color: #666
+  background-color: #121212
+  display: grid
+  grid-template-columns: 1fr
+  grid-gap: 20px
+  padding: 50px 100px 
+  box-sizing: border-box
+
+.fondo-item
+  background-color: var(--color-blanco)
+  text-decoration: none
+  color: rgba(50,50,50,0.9)
+  box-shadow: inset -5px 0px 25px rgba(0,0,0,0.5)
+  display: flex
+  justify-content: space-between
+  padding: 20px 40px
+
+.fondo-titulo
+  font-size: 26px
+  letter-spacing: -2px
+
+.fondo-icono
+  font-size: 30px  
+
+.pie-contenedor
+  background-color: black
+  height: 400px  
 
 @media (--only-800)
   .actualidad-contenedor
     column-count: 3
 
+  .listados-contenedor
+    grid-template-columns: 1fr 1fr
+
 @media (--only-1200)
   .actualidad-contenedor
     column-count: 4
+
+  .listados-contenedor
+    grid-template-columns: 1fr 1fr 1fr

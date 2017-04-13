@@ -52,5 +52,31 @@
       "mes": "MAYO",
       "categoria": "noticia"
     }
+  ],
+  "fondos": [
+    {
+      "titulo": "Politica",
+      "color": "#00b5ff"
+    },
+    {
+      "titulo": "Mujer",
+      "color": "#f5547e"
+    },
+    {
+      "titulo": "Cultura",
+      "color": "#75d2d7"
+    },
+    {
+      "titulo": "Opinion",
+      "color": "#f03f37"
+    },
+    {
+      "titulo": "Arte",
+      "color": "#bf54d0"
+    },
+    {
+      "titulo": "Actualidad",
+      "color": "#918aff"
+    }
   ]
 }

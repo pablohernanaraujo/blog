@@ -3,6 +3,7 @@ import _ from 'lodash'
 
 import Data from '../../data/data'
 import Noticia from './Noticia'
+import Fondo from './Fondo'
 
 export default class HomePage extends React.Component {
   constructor () {
@@ -30,7 +31,20 @@ export default class HomePage extends React.Component {
             )
           })}
         </div>
-        <div className='listados-contenedor' />
+        <div className='listados-contenedor'>
+          {_.map(this.state.data.fondos, (fondo, index) => {
+            return (
+              <Fondo
+                key={index}
+                color={fondo.color}
+                titulo={fondo.titulo}
+              />
+            )
+          })}
+        </div>
+        <div className='pie-contenedor'>
+          Footer
+        </div>
       </div>
     )
   }

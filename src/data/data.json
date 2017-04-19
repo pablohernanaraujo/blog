@@ -56,27 +56,27 @@
   "fondos": [
     {
       "titulo": "Politica",
-      "color": "#00b5ff"
+      "color": "#74d7ff"
     },
     {
       "titulo": "Mujer",
-      "color": "#f5547e"
+      "color": "#f48ca7"
     },
     {
       "titulo": "Cultura",
-      "color": "#75d2d7"
+      "color": "#8dd0d4"
     },
     {
       "titulo": "Opinion",
-      "color": "#f03f37"
+      "color": "#e67772"
     },
     {
       "titulo": "Arte",
-      "color": "#bf54d0"
+      "color": "#c475d0"
     },
     {
       "titulo": "Actualidad",
-      "color": "#918aff"
+      "color": "#b4afff"
     }
   ]
 }

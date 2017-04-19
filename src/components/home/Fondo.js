@@ -6,7 +6,6 @@ const Fondo = ({titulo, color}) => {
       <div className='fondo-titulo'>
         {titulo}
       </div>
-      <i className='fa fa-chevron-right fondo-icono' />
     </a>
   )
 }

@@ -12,6 +12,14 @@ const Noticia = ({dia, mes, titulo, texto, imagen, categoria}) => {
           <div className='categoria'>{categoria}</div>
         </div>
         <p className='noticia-texto'>{texto}</p>
+        <div className='social-contenedor'>
+          <a href='#'>
+            <i className='fa fa-facebook' />
+          </a>
+          <a href='#'>
+            <i className='fa fa-twitter' />
+          </a>
+        </div>
       </div>
     )
   } else if (categoria === 'frase') {
@@ -21,6 +29,14 @@ const Noticia = ({dia, mes, titulo, texto, imagen, categoria}) => {
           <i className='fa fa-quote-left frase-icono-izquierda' />
           <p className='frase-texto'>{texto}</p>
           <i className='fa fa-quote-right frase-icono-derecha' />
+        </div>
+        <div className='social-contenedor'>
+          <a href='#'>
+            <i className='fa fa-facebook' />
+          </a>
+          <a href='#'>
+            <i className='fa fa-twitter' />
+          </a>
         </div>
       </div>
     )

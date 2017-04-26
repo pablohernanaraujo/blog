@@ -64,15 +64,18 @@ export default class HomePage extends React.Component {
         </div>
         <Preguntas />
         <div className='listados-contenedor'>
-          {_.map(this.state.data.fondos, (fondo, index) => {
-            return (
-              <Fondo
-                key={index}
-                color={fondo.color}
-                titulo={fondo.titulo}
-              />
-            )
-          })}
+          <h2 className='titulos-principales'>Temas de Fondo</h2>
+          <div className='listados-contenedor-interno'>
+            {_.map(this.state.data.fondos, (fondo, index) => {
+              return (
+                <Fondo
+                  key={index}
+                  color={fondo.color}
+                  titulo={fondo.titulo}
+                />
+              )
+            })}
+          </div>
         </div>
         <Frases />
         <Leyendo />

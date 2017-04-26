@@ -3,6 +3,7 @@ import React from 'react'
 const Leyendo = () => {
   return (
     <div className='leyendo-contenedor'>
+      <h2 className='titulos-principales'>Qué estoy leyendo</h2>
       <ul className='leyendo'>
         <li>
           <i className='fa fa-book' />

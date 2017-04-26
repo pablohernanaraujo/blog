@@ -1,21 +1,10 @@
 import React from 'react'
-import $ from 'jquery'
 
 export default class Header extends React.Component {
   componentDidMount () {
-    $(document).ready(() => {
-      $('.btn-buscador').on('click', () => {
-        $('.buscador-contenedor').toggleClass('buscador-activo')
-      })
-
-      $(window).scroll(() => {
-        var wScroll = $(this).scrollTop()
-        var altoPantalla = $(window).height()
-        console.log(wScroll)
-        if (wScroll <= altoPantalla) {
-          console.log('scroll')
-        }
-      })
+    const items = ['hola', 'jelou', 'lalal']
+    items.forEach((value, i) => {
+      console.log(value, i)
     })
   }
 
@@ -29,8 +18,8 @@ export default class Header extends React.Component {
               <a href='#' className='btn-header'>QUE ESTA PASANDO</a>
             </div>
             <div className='nav-derecha'>
-              <a href='#' className='btn-header'>Respondo</a>
-              <a href='#' className='btn-header'>Lentura</a>
+              <a href='#' className='btn-header'>Te respondo</a>
+              <a href='#' className='btn-header'>Qué estoy leyendo</a>
               <a className='btn-header btn-buscador'>
                 <i className='fa fa-search' />
               </a>

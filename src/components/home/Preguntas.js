@@ -33,7 +33,7 @@ const Preguntas = ({dia, mes, titulo, texto, imagen, categoria}) => {
         </ul>
         <div className='preguntas-ver-mas-contenedor'>
           <a href='#'>
-            <i className="fa fa-plus" aria-hidden="true"></i>
+            <i className='fa fa-plus' />
           </a>
         </div>
       </div>

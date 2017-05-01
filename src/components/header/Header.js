@@ -1,10 +1,15 @@
 import React from 'react'
 
 export default class Header extends React.Component {
-  componentDidMount () {
-    const items = ['hola', 'jelou', 'lalal']
-    items.forEach((value, i) => {
-      console.log(value, i)
+  constructor () {
+    super()
+    this.state = {
+      toggleSearch: false
+    }
+  }
+  handleSearch = () => {
+    this.setState({
+      toggleSearch: !this.state.toggleSearch
     })
   }
 
@@ -20,13 +25,13 @@ export default class Header extends React.Component {
             <div className='nav-derecha'>
               <a href='#' className='btn-header'>Te respondo</a>
               <a href='#' className='btn-header'>Qué estoy leyendo</a>
-              <a className='btn-header btn-buscador'>
+              <a className='btn-header btn-buscador' onClick={this.handleSearch}>
                 <i className='fa fa-search' />
               </a>
             </div>
           </div>
         </nav>
-        <div className='buscador-contenedor'>
+        <div className={this.state.toggleSearch ? 'buscador-contenedor buscador-activo' : 'buscador-contenedor'}>
           <div className='buscador-interno'>
             <input type='text' className='buscador' placeholder='Buscar' />
             <a href='#' className='buscador-btn'>clear</a>

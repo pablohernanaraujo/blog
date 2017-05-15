@@ -12,7 +12,6 @@ export default class Header extends React.Component {
       toggleSearch: !this.state.toggleSearch
     })
   }
-
   render () {
     return (
       <header>

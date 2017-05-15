@@ -36,7 +36,10 @@ module.exports = {
 			enforce: 'pre',
 			test: /\.js$/,
 			exclude: /node_module/,
-			loader: 'standard-loader'
+			loader: 'standard-loader',
+      options: {
+        parser: 'babel-eslint'
+      }
 		},
 		{
 			test: /\.sss$/,

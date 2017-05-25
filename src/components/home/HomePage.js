@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import _ from 'lodash'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
@@ -13,7 +14,7 @@ import Frases from './Frases'
 import Leyendo from './Leyendo'
 import Footer from '../footer/Footer'
 
-export default class HomePage extends React.Component {
+class HomePage extends React.Component {
   constructor () {
     super()
     this.state = {
@@ -89,3 +90,19 @@ export default class HomePage extends React.Component {
     )
   }
 }
+
+HomePage.propTypes = {
+  noticias: PropTypes.object.isRequired
+}
+
+function mapStateToProps (state, ownProps) {
+  return {
+    noticias: state.noticias
+  }
+}
+
+function mapDispatchToProps (dispatch) {
+  return bindActionCreators(ActionCreators, dispatch)
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(HomePage)

@@ -1,5 +1,9 @@
 import React from 'react'
 import _ from 'lodash'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
+
+import { ActionCreators } from '../../actions'
 
 import Data from '../../data/data'
 import Preguntas from './Preguntas'
@@ -7,6 +11,7 @@ import Noticia from './Noticia'
 import Fondo from './Fondo'
 import Frases from './Frases'
 import Leyendo from './Leyendo'
+import Footer from '../footer/Footer'
 
 export default class HomePage extends React.Component {
   constructor () {
@@ -79,9 +84,7 @@ export default class HomePage extends React.Component {
         </div>
         <Frases />
         <Leyendo />
-        <div className='pie-contenedor'>
-          Footer
-        </div>
+        <Footer />
       </div>
     )
   }
